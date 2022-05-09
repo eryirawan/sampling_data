@@ -1,5 +1,6 @@
 Ini adalah tugas ke-4 SQL Shell tooling
 
-Tambahkan dataset 'weather_data.xlsx'
+Tambahkan dataset dan download dengan wget 
+$ wget https://github.com/labusiam/dataset/raw/main/weather_data.xlsx
 
 
