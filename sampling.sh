@@ -22,7 +22,11 @@ else
 fi
 
 
-3. Menggabungkan Data weather 2014 dan 2015 menjadi 1 csv kemudian diberi nama weather.csv. menghapus File weather_data.xlsx
+#3. Menggabungkan Data weather 2014 dan 2015 menjadi 1 csv kemudian diberi nama weather.csv. menghapus File weather_data.xlsx
+
+csvstack weather_2014.csv weather_2015.csv > weather.csv
+
+rm weather_data.xlsx
 
 #4. sampling pada weather.csv
 
