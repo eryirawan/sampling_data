@@ -1,4 +1,5 @@
 Ini adalah tugas ke-4 SQL Shell tooling
+
 #!/bin/bash
 
 #1. Tambahkan data set weather_data.xlsx
@@ -23,5 +24,8 @@ fi
 
 3. Menggabungkan Data weather 2014 dan 2015 menjadi 1 csv kemudian diberi nama weather.csv. menghapus File weather_data.xlsx
 
-4. 
+#4. sampling pada weather.csv
+
+cat weather.csv | sample -r 0.3 > sample_weather.csv
+
 
