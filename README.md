@@ -1,5 +1,5 @@
 # sampling_data
-Ini adalah tugas ke-4 SQL Shell tooling
+Tugas ke-4 SQL Shell tooling
 
 #!/bin/bash
 
